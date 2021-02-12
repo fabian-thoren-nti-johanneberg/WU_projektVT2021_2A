@@ -1,0 +1,30 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+.grid_wrapper{
+display: grid;
+grid-template-columns: 100px, 300px, 200px, 200px ;
+grid-template-rows: 50, 50, 50, 50, 50, 50 ;
+height: 800px;
+width: 300px;
+grid-template-areas: 
+"he he he he he na"
+"ma ma ma ma ma ma"
+"ar ar ar bi bi bi"
+"ar2 ar2 ar2 bi2 bi2 bi2"
+;
+
+}
+
+#h1{
+grid-area: he;
+background: rgb(196, 196, 196);
+}
+
+#n1{
+grid-area: na;
+background: rgb(196, 196, 196)
+}
+
